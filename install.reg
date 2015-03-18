@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.apk]
+@="AndroidPackage"
+
+[HKEY_CLASSES_ROOT\AndroidPackage\Shell\Open\Command]
+@="E:\\Programming\\SourceCode\\apk-install\\adb.exe install -r \"%1\""
